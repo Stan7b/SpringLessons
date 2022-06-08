@@ -19,5 +19,11 @@
    </map>
   </constructor-arg>
  </bean>
+
+ <bean id="companyRepository" class="com.stan.spring.database.repository.CompanyRepository" factory-method="of">
+
+<constructor-arg ref="p1"/>
+
+ </bean>
 <!-- <bean id="pool2" name="p4" class="com.stan.spring.database.pool.ConnectionPool"/>-->
 </beans>
