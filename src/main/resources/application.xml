@@ -1,29 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+ <bean id="driver" class="java.lang.String">
+  <constructor-arg type="java.lang.String" value="PostgresDriver"/>
+ </bean>
+
  <bean id="pool1" name="p1,p2,p3" class="com.stan.spring.database.pool.ConnectionPool">
 
-  <constructor-arg name="username" type="java.lang.String" value="postgres"/>
+  <constructor-arg name="username" type="java.lang.String" ref="driver"/>
   <constructor-arg name="poolSize" type="java.lang.Integer" value="10"/>
   <constructor-arg name="args" type="java.util.List">
    <list>
     <value>--arg1=value1</value>
     <value>--arg2=value2</value>
+    <ref bean="driver"/>
    </list>
   </constructor-arg >
   <constructor-arg name="properties" type="java.util.Map">
+  <null/>
+  </constructor-arg>
+  <property name="properties">
    <map>
     <entry key="url" value="postgresurl"/>
     <entry key="password" value="123"/>
+    <entry key="driver" value-ref="driver"/>
    </map>
-  </constructor-arg>
+  </property>
  </bean>
 
  <bean id="companyRepository" class="com.stan.spring.database.repository.CompanyRepository" factory-method="of">
-
 <constructor-arg ref="p1"/>
-
  </bean>
 <!-- <bean id="pool2" name="p4" class="com.stan.spring.database.pool.ConnectionPool"/>-->
 </beans>
