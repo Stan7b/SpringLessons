@@ -12,13 +12,14 @@
  <bean id="driver" class="java.lang.String">
   <constructor-arg type="java.lang.String" value="${db.driver}"/>
  </bean>
+ <bean class="com.stan.spring.bfpp.LogBeanFactoryPostProcessor"/>
+ <bean class="com.stan.spring.bfpp.VerifyPropertyBeanFactoryPostProcessor"/>
+
 <!-- <bean class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">-->
 <!--<property name="locations" value="application.properties"/>-->
 <!-- </bean>-->
 
- <bean id="pool1" name="p1,p2,p3" class="com.stan.spring.database.pool.ConnectionPool"
-       init-method="init"
-       destroy-method="destroy">
+ <bean id="pool1" name="p1,p2,p3" class="com.stan.spring.database.pool.ConnectionPool">
   <constructor-arg name="username" type="java.lang.String" value="${db.username}"/>
   <constructor-arg name="poolSize" type="java.lang.Integer" value="${db.pool.size}"/>
   <constructor-arg name="args" type="java.util.List">
