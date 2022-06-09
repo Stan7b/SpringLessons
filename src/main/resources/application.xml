@@ -8,13 +8,15 @@
                              http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 
  <context:property-placeholder location="application.properties"/>
+ <context:annotation-config/>
+
 
  <bean id="driver" class="java.lang.String">
   <constructor-arg type="java.lang.String" value="${db.driver}"/>
  </bean>
  <bean class="com.stan.spring.bfpp.LogBeanFactoryPostProcessor"/>
  <bean class="com.stan.spring.bfpp.VerifyPropertyBeanFactoryPostProcessor"/>
-
+<!-- <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>-->
 <!-- <bean class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">-->
 <!--<property name="locations" value="application.properties"/>-->
 <!-- </bean>-->

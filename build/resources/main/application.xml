@@ -14,7 +14,7 @@
  </bean>
  <bean class="com.stan.spring.bfpp.LogBeanFactoryPostProcessor"/>
  <bean class="com.stan.spring.bfpp.VerifyPropertyBeanFactoryPostProcessor"/>
-
+ <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
 <!-- <bean class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">-->
 <!--<property name="locations" value="application.properties"/>-->
 <!-- </bean>-->
