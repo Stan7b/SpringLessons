@@ -22,6 +22,7 @@
 <!--<property name="locations" value="application.properties"/>-->
 <!-- </bean>-->
 
+ <bean id="pool2"  class="com.stan.spring.database.pool.ConnectionPool"/>
  <bean id="pool1" name="p1,p2,p3" class="com.stan.spring.database.pool.ConnectionPool">
   <constructor-arg name="username" type="java.lang.String" value="${db.username}"/>
   <constructor-arg name="poolSize" type="java.lang.Integer" value="${db.pool.size}"/>
