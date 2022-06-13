@@ -8,6 +8,8 @@ import com.stan.spring.database.pool.ConnectionPool;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
@@ -16,16 +18,20 @@ import java.util.Optional;
 
 @Transaction
 @Auditing
+@Repository
 public class CompanyRepository implements CrudRepository<Integer, Company>  {
 
-//    @Resource(name="pool1")
-//    @Qualifier("pool1")
-    private  ConnectionPool pool1;
-    @Autowired
-    private List<ConnectionPool> pools;
+    private final   ConnectionPool pool1;
+    private final List<ConnectionPool> pools;
+    private final Integer poolSize;
 
-    @Value("${db.pool.size}")
-    private Integer poolSize;
+    public CompanyRepository(ConnectionPool pool1,
+                             List<ConnectionPool> pools,
+                             @Value("${db.pool.size}")Integer poolSize) {
+        this.pool1 = pool1;
+        this.pools = pools;
+        this.poolSize = poolSize;
+    }
 
     @PostConstruct
     private void init(){
@@ -42,10 +48,5 @@ public class CompanyRepository implements CrudRepository<Integer, Company>  {
     public void detele(Company entity) {
         System.out.println("delete");
 
-    }
-
-    @Autowired
-    public void setPool1(ConnectionPool pool1) {
-        this.pool1 = pool1;
     }
 }

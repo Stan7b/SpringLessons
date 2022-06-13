@@ -12,7 +12,7 @@ public class ApplicationRunner {
     public static void main(String[] args) {
         try (var context = new ClassPathXmlApplicationContext("application.xml")) {
 
-            var connectionPool = context.getBean("p2", ConnectionPool.class);
+            var connectionPool = context.getBean("pool1", ConnectionPool.class);
             System.out.println(connectionPool);
 
             var companyRepository = context.getBean("companyRepository", CrudRepository.class);
