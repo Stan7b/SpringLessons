@@ -2,6 +2,7 @@ package com.stan.spring;
 
 import com.stan.spring.database.pool.ConnectionPool;
 import com.stan.spring.database.repository.CompanyRepository;
+import com.stan.spring.database.repository.CrudRepository;
 import com.stan.spring.database.repository.UserRepository;
 import com.stan.spring.ioc.Container;
 import com.stan.spring.service.UserService;
@@ -14,8 +15,8 @@ public class ApplicationRunner {
             var connectionPool = context.getBean("p2", ConnectionPool.class);
             System.out.println(connectionPool);
 
-            var companyRepository = context.getBean("companyRepository", CompanyRepository.class);
-            System.out.println(companyRepository);
+            var companyRepository = context.getBean("companyRepository", CrudRepository.class);
+            System.out.println(companyRepository.findById(1));
         }
     }
 }

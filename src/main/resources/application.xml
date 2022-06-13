@@ -9,7 +9,8 @@
 
  <context:property-placeholder location="application.properties"/>
  <context:annotation-config/>
-
+<bean class="com.stan.spring.bpp.TransactionBeanPostProcessor"/>
+<bean class="com.stan.spring.bpp.AuditingBeanPostProcessor"/>
 <bean class="com.stan.spring.bpp.InjectBeanPostProcessor"/>
  <bean id="driver" class="java.lang.String">
   <constructor-arg type="java.lang.String" value="${db.driver}"/>
