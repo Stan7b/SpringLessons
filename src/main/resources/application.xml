@@ -10,24 +10,23 @@
 
 
 
- <context:component-scan base-package="com.stan.spring"
-                         annotation-config="true"
-                         resource-pattern="**/*.class"
-                         scoped-proxy="no"
-                         use-default-filters="true">
-  <context:include-filter type="annotation" expression="org.springframework.stereotype.Component"/>
-  <context:include-filter type="assignable" expression="com.stan.spring.database.repository.CrudRepository"/>
-  <context:include-filter type="regex" expression="com\..+Repository"/>
+<!-- <context:component-scan base-package="com.stan.spring"-->
+<!--                         annotation-config="true"-->
+<!--                         resource-pattern="**/*.class"-->
+<!--                         scoped-proxy="no"-->
+<!--                         use-default-filters="true">-->
+<!--  <context:include-filter type="annotation" expression="org.springframework.stereotype.Component"/>-->
+<!--  <context:include-filter type="assignable" expression="com.stan.spring.database.repository.CrudRepository"/>-->
+<!--  <context:include-filter type="regex" expression="com\..+Repository"/>-->
 
- </context:component-scan>
- <context:property-placeholder location="application.properties"/>
+<!-- </context:component-scan>-->
 
 
  <bean id="driver" class="java.lang.String">
   <constructor-arg type="java.lang.String" value="${db.driver}"/>
  </bean>
 
- <bean id="companyRepository" class="com.stan.spring.database.repository.CompanyRepository"/>
+<!-- <bean id="companyRepository" class="com.stan.spring.database.repository.CompanyRepository"/>-->
 
 <!-- <bean id="pool1" name="p1,p2,p3" class="com.stan.spring.database.pool.ConnectionPool"/>-->
 <!--  <constructor-arg name="username" type="java.lang.String" value="${db.username}"/>-->
