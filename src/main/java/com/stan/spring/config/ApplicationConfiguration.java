@@ -35,6 +35,7 @@ public class ApplicationConfiguration {
         }
 
         @Bean
+        @Profile("prod|web")
         public UserRepository userRepository3(){
                 var userRepository1 = new UserRepository(pool3());
                 var userRepository2 = new UserRepository(pool3());
