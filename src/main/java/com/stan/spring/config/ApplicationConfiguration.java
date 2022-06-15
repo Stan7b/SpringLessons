@@ -11,7 +11,7 @@ import org.springframework.context.annotation.*;
 import org.springframework.stereotype.Component;
 
 @Import(WebConfiguration.class)
-@Configuration
+@Configuration(proxyBeanMethods = true)
 @PropertySource("classpath:application.properties")
 @ComponentScan(basePackages = "com.stan.spring",
    useDefaultFilters = false,
@@ -28,10 +28,18 @@ public class ApplicationConfiguration {
         public ConnectionPool pool2(@Value("${db.username")String name){
                 return new ConnectionPool("test-name",20);
         }
+        @Bean()
+        @Scope(BeanDefinition.SCOPE_PROTOTYPE)
+        public ConnectionPool pool3(){
+                return new ConnectionPool("test-pool",25);
+        }
 
         @Bean
-        public UserRepository userRepository2(ConnectionPool pool2){
-                return new UserRepository(pool2);
+        public UserRepository userRepository3(){
+                var userRepository1 = new UserRepository(pool3());
+                var userRepository2 = new UserRepository(pool3());
+                var userRepository3 = new UserRepository(pool3());
+                return new UserRepository(pool3());
         }
 
 
