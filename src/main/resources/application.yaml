@@ -25,3 +25,6 @@ logging:
   level:
     root: WARN
     com.stan.spring.database.pool: INFO
+  file:
+    name: stan.log
+    path: /
