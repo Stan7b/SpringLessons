@@ -5,6 +5,7 @@ import com.stan.spring.bpp.InjectBean;
 import com.stan.spring.bpp.Transaction;
 import com.stan.spring.database.entity.Company;
 import com.stan.spring.database.pool.ConnectionPool;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -22,19 +23,14 @@ import java.util.Optional;
 @Auditing
 @Repository
 @Scope(BeanDefinition.SCOPE_PROTOTYPE)
+@RequiredArgsConstructor
 public class CompanyRepository implements CrudRepository<Integer, Company>  {
 
     private final   ConnectionPool pool1;
     private final List<ConnectionPool> pools;
+    @Value("${db.pool.size}")
     private final Integer poolSize;
 
-    public CompanyRepository(ConnectionPool pool1,
-                             List<ConnectionPool> pools,
-                             @Value("${db.pool.size}")Integer poolSize) {
-        this.pool1 = pool1;
-        this.pools = pools;
-        this.poolSize = poolSize;
-    }
 
     @PostConstruct
     private void init(){
