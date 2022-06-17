@@ -13,7 +13,7 @@ import org.springframework.stereotype.Repository;
 public class UserRepository {
 
     @Qualifier("pool2")
-  private final ConnectionPool connectionPool;
+    private final ConnectionPool connectionPool;
 
 
 }

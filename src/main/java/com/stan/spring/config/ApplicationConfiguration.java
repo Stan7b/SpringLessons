@@ -10,27 +10,33 @@ import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.*;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.Resource;
+
 @Import(WebConfiguration.class)
 @Configuration(proxyBeanMethods = true)
 public class ApplicationConfiguration {
 
         @Bean("pool2")
         @Scope(BeanDefinition.SCOPE_PROTOTYPE)
-        public ConnectionPool pool2(@Value("${db.username")String name){
-                return new ConnectionPool("test-name",20);
+        public ConnectionPool pool2(@Value("${db.username")String username){
+                return new ConnectionPool(username,20);
         }
         @Bean()
-        @Scope(BeanDefinition.SCOPE_PROTOTYPE)
         public ConnectionPool pool3(){
                 return new ConnectionPool("test-pool",25);
         }
 
         @Bean
         @Profile("prod|web")
-        public UserRepository userRepository3(){
-                var userRepository1 = new UserRepository(pool3());
-                var userRepository2 = new UserRepository(pool3());
-                var userRepository3 = new UserRepository(pool3());
+//    ! & |
+        public UserRepository userRepository2(ConnectionPool pool2) {
+                return new UserRepository(pool2);
+        }
+        @Bean
+        public UserRepository userRepository3() {
+                var connectionPool1 = pool3();
+                var connectionPool2 = pool3();
+                var connectionPool3 = pool3();
                 return new UserRepository(pool3());
         }
 

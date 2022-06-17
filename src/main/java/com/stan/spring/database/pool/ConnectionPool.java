@@ -13,10 +13,10 @@ import java.util.Map;
 
 @Component("pool1")
 @RequiredArgsConstructor
-public class ConnectionPool{
+public class ConnectionPool {
 
     @Value("${db.username}")
-    private final   String username;
+    private final String username;
     @Value("${db.pool.size}")
     private final Integer poolSize;
 
