@@ -10,12 +10,14 @@ import com.stan.spring.service.CompanyService;
 import com.stan.spring.service.UserService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @SpringBootApplication
 public class ApplicationRunner {
     public static void main(String[] args) {
-        SpringApplication.run(ApplicationRunner.class,args);
+        var context = SpringApplication.run(ApplicationRunner.class, args);
+        System.out.println(context.getBeanDefinitionCount());
     }
 }
