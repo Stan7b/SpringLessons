@@ -89,3 +89,107 @@
 2022-06-18 17:52:54.178  INFO 14512 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
 2022-06-18 17:52:54.184  INFO 14512 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
 2022-06-18 17:52:54.190  WARN 14512 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:09:21.329  INFO 5764 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:09:21.359  INFO 5764 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:09:21.362  INFO 5764 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:09:21.369  WARN 5764 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:09:21.376  INFO 5764 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:09:21.382  INFO 5764 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:09:21.384  WARN 5764 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:09:22.514  INFO 5764 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:09:22.518  INFO 5764 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:09:22.520  INFO 5764 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:09:22.526  WARN 5764 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:09:22.530  INFO 5764 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:09:22.534  INFO 5764 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:09:22.536  WARN 5764 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:09:22.659  INFO 5764 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:09:22.660  INFO 5764 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:09:22.662  INFO 5764 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:09:22.663  INFO 5764 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:14:28.094  INFO 17320 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:14:28.125  INFO 17320 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:14:28.128  INFO 17320 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:14:28.137  WARN 17320 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:14:28.146  INFO 17320 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:14:28.149  INFO 17320 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:14:28.152  WARN 17320 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:14:29.035  INFO 17320 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:14:29.036  INFO 17320 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:18:18.936  INFO 16036 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:18:18.949  INFO 16036 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:18:18.957  WARN 16036 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:18:18.964  INFO 16036 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:18:18.969  INFO 16036 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:18:18.971  WARN 16036 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:18:19.266  INFO 16036 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:18:33.193  INFO 16552 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:18:33.221  INFO 16552 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:18:33.223  INFO 16552 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:18:33.230  WARN 16552 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:18:33.242  INFO 16552 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:18:33.250  INFO 16552 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:18:33.253  WARN 16552 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:18:34.691  INFO 16552 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:18:34.693  INFO 16552 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:18:34.699  WARN 16552 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:18:34.702  INFO 16552 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:18:34.707  INFO 16552 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:18:34.710  WARN 16552 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:18:34.847  INFO 16552 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:18:34.848  INFO 16552 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:18:34.850  INFO 16552 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:25:23.938  INFO 15712 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:25:24.888  INFO 15712 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:25:24.890  INFO 15712 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:25:24.917  WARN 15712 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:25:24.926  INFO 15712 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:25:24.935  INFO 15712 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:25:24.938  WARN 15712 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:25:35.658  INFO 15712 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:25:35.661  INFO 15712 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:26:39.346  INFO 11456 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:26:40.296  INFO 11456 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:26:40.298  INFO 11456 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:26:40.311  WARN 11456 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:26:40.328  INFO 11456 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:26:40.335  INFO 11456 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:26:40.337  WARN 11456 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:26:40.723  INFO 11456 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:26:40.724  INFO 11456 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:28:00.650  INFO 13280 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:28:01.610  INFO 13280 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:28:01.612  INFO 13280 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:28:01.623  WARN 13280 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:28:01.632  INFO 13280 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:28:01.638  INFO 13280 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:28:01.640  WARN 13280 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:28:02.057  INFO 13280 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:28:02.060  INFO 13280 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:29:03.208  INFO 17000 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:29:04.097  INFO 17000 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:29:04.102  INFO 17000 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:29:04.113  WARN 17000 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:29:04.123  INFO 17000 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:29:04.129  INFO 17000 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:29:04.133  WARN 17000 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:29:53.066  INFO 17000 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:29:53.067  INFO 17000 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:35:56.209  INFO 14660 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:35:57.050  INFO 14660 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:35:57.052  INFO 14660 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:35:57.063  WARN 14660 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:35:57.071  INFO 14660 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:35:57.082  INFO 14660 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:35:57.086  WARN 14660 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:35:57.385  INFO 14660 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:35:57.386  INFO 14660 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:35:57.719  INFO 14660 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:35:57.732  INFO 14660 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:35:57.733  INFO 14660 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:35:57.737  WARN 14660 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:35:57.742  INFO 14660 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:35:57.747  INFO 14660 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-18 18:35:57.750  WARN 14660 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-18 18:35:57.869  INFO 14660 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-18 18:35:57.869  INFO 14660 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
