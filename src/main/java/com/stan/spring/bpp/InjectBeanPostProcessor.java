@@ -20,16 +20,20 @@ public class InjectBeanPostProcessor implements BeanPostProcessor, ApplicationCo
                 .filter(field -> field.isAnnotationPresent(InjectBean.class))
                 .forEach(field -> {
                     Object beanToInject = applicationContext.getBean(field.getType());
-                    field.setAccessible(true);
-                    ReflectionUtils.setField(field,bean,beanToInject);
                     ReflectionUtils.makeAccessible(field);
-
+                    ReflectionUtils.setField(field, bean, beanToInject);
                 });
+
+        return bean;
+    }
+
+    @Override
+    public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         return bean;
     }
 
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
-        this.applicationContext=applicationContext;
+        this.applicationContext = applicationContext;
     }
 }

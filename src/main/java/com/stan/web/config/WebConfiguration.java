@@ -1,10 +1,9 @@
-package com.stan.spring.web.config;
-
+package com.stan.web.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-@Configuration
 @Profile("web")
+@Configuration
 public class WebConfiguration {
 }

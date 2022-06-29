@@ -14,6 +14,4 @@ public class UserRepository {
 
     @Qualifier("pool2")
     private final ConnectionPool connectionPool;
-
-
 }

@@ -12,7 +12,6 @@ public class JpaCondition implements Condition {
             context.getClassLoader().loadClass("org.postgresql.Driver");
             return true;
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();
             return false;
         }
     }

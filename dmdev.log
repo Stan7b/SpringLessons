@@ -1,0 +1,75 @@
+2022-06-29 18:26:03.277  INFO 13732 --- [main] com.stan.spring.ApplicationRunner       : Starting ApplicationRunner using Java 17.0.3.1 on DESKTOP-QI8F0IR with PID 13732 (D:\JavaProjects\spring-starter\build\classes\java\main started by posht in D:\JavaProjects\spring-starter)
+2022-06-29 18:26:03.280  INFO 13732 --- [main] com.stan.spring.ApplicationRunner       : The following profiles are active: qa
+2022-06-29 18:26:03.935  INFO 13732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29 18:26:03.955  INFO 13732 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2022-06-29 18:26:04.315  INFO 13732 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-29 18:26:04.464  INFO 13732 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-29 18:26:04.513  INFO 13732 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29 18:26:04.561  INFO 13732 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-06-29 18:26:04.787  INFO 13732 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-29 18:26:04.953  INFO 13732 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-06-29 18:26:05.105  INFO 13732 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29 18:26:05.115  INFO 13732 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 18:26:05.124  INFO 13732 --- [main] c.dmdev.spring.config.JpaConfiguration   : Jpa configuration is enabled
+2022-06-29 18:26:05.131  INFO 13732 --- [main] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-29 18:26:05.152  INFO 13732 --- [main] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-29 18:26:05.155  INFO 13732 --- [main] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-29 18:26:05.158  WARN 13732 --- [main] c.d.s.d.repository.CompanyRepository     : init company repository
+2022-06-29 18:26:05.185  WARN 13732 --- [main] c.d.s.d.repository.CompanyRepository     : init company repository
+2022-06-29 18:26:05.310  INFO 13732 --- [main] com.stan.spring.ApplicationRunner       : Started ApplicationRunner in 2.677 seconds (JVM running for 4.893)
+2022-06-29 18:26:05.325  INFO 13732 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-29 18:26:05.325  INFO 13732 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-29 18:26:05.325  INFO 13732 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-29 18:26:05.325  INFO 13732 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 18:26:05.328  INFO 13732 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-29 18:26:05.334  INFO 13732 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-29 18:27:21.723  INFO 12712 --- [main] com.stan.spring.ApplicationRunner       : Starting ApplicationRunner using Java 17.0.3.1 on DESKTOP-QI8F0IR with PID 12712 (D:\JavaProjects\spring-starter\build\classes\java\main started by posht in D:\JavaProjects\spring-starter)
+2022-06-29 18:27:21.727  INFO 12712 --- [main] com.stan.spring.ApplicationRunner       : The following profiles are active: qa
+2022-06-29 18:27:22.439  INFO 12712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29 18:27:22.467  INFO 12712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2022-06-29 18:27:22.906  INFO 12712 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-29 18:27:23.046  INFO 12712 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-29 18:27:23.106  INFO 12712 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29 18:27:23.189  INFO 12712 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-06-29 18:27:23.384  INFO 12712 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-29 18:27:23.533  INFO 12712 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-06-29 18:27:23.667  INFO 12712 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29 18:27:23.678  INFO 12712 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 18:27:23.692  INFO 12712 --- [main] c.dmdev.spring.config.JpaConfiguration   : Jpa configuration is enabled
+2022-06-29 18:27:23.699  INFO 12712 --- [main] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-29 18:27:23.731  INFO 12712 --- [main] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-29 18:27:23.733  INFO 12712 --- [main] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-29 18:27:23.736  WARN 12712 --- [main] c.d.s.d.repository.CompanyRepository     : init company repository
+2022-06-29 18:27:23.777  WARN 12712 --- [main] c.d.s.d.repository.CompanyRepository     : init company repository
+2022-06-29 18:27:23.950  INFO 12712 --- [main] com.stan.spring.ApplicationRunner       : Started ApplicationRunner in 3.103 seconds (JVM running for 4.001)
+2022-06-29 18:27:23.961  INFO 12712 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-29 18:27:23.961  INFO 12712 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-29 18:27:23.961  INFO 12712 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-29 18:27:23.962  INFO 12712 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 18:27:23.964  INFO 12712 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-29 18:27:23.969  INFO 12712 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-29 18:29:06.864  INFO 13660 --- [main] com.stan.spring.ApplicationRunner        : Starting ApplicationRunner using Java 17.0.3.1 on DESKTOP-QI8F0IR with PID 13660 (D:\JavaProjects\spring-starter\build\classes\java\main started by posht in D:\JavaProjects\spring-starter)
+2022-06-29 18:29:06.866  INFO 13660 --- [main] com.stan.spring.ApplicationRunner        : The following profiles are active: qa
+2022-06-29 18:29:07.478  INFO 13660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-29 18:29:07.506  INFO 13660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2022-06-29 18:29:07.942  INFO 13660 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-29 18:29:08.086  INFO 13660 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-29 18:29:08.133  INFO 13660 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-29 18:29:08.192  INFO 13660 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-06-29 18:29:08.382  INFO 13660 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-29 18:29:08.572  INFO 13660 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-06-29 18:29:08.748  INFO 13660 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-29 18:29:08.759  INFO 13660 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 18:29:08.770  INFO 13660 --- [main] com.stan.spring.config.JpaConfiguration  : Jpa configuration is enabled
+2022-06-29 18:29:08.777  INFO 13660 --- [main] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-29 18:29:08.805  INFO 13660 --- [main] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-29 18:29:08.817  INFO 13660 --- [main] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-06-29 18:29:08.820  WARN 13660 --- [main] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-29 18:29:08.847  WARN 13660 --- [main] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-06-29 18:29:08.977  INFO 13660 --- [main] com.stan.spring.ApplicationRunner        : Started ApplicationRunner in 2.735 seconds (JVM running for 4.908)
+2022-06-29 18:29:08.987  INFO 13660 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-29 18:29:08.988  INFO 13660 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-29 18:29:08.988  INFO 13660 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-06-29 18:29:08.988  INFO 13660 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-29 18:29:08.990  INFO 13660 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-29 18:29:08.994  INFO 13660 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
