@@ -1764,3 +1764,91 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 2022-07-01 14:43:00.949  INFO 2772 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-07-01 14:43:00.952  INFO 2772 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-07-01 14:43:00.957  INFO 2772 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-01 15:01:17.666  INFO 13136 --- [Test worker] c.s.s.i.service.CompanyServiceIT         : Starting CompanyServiceIT using Java 17.0.3.1 on DESKTOP-QI8F0IR with PID 13136 (started by posht in D:\JavaProjects\spring-starter)
+2022-07-01 15:01:17.669  INFO 13136 --- [Test worker] c.s.s.i.service.CompanyServiceIT         : The following profiles are active: test
+2022-07-01 15:01:18.454  INFO 13136 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-01 15:01:18.501  INFO 13136 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 JPA repository interfaces.
+2022-07-01 15:01:19.552  INFO 13136 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-01 15:01:19.979  INFO 13136 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-01 15:01:20.168  INFO 13136 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-01 15:01:20.323  INFO 13136 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-07-01 15:01:20.793  INFO 13136 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-01 15:01:21.124  INFO 13136 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-07-01 15:01:22.637  INFO 13136 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-01 15:01:22.656  INFO 13136 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-01 15:01:22.686  INFO 13136 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-07-01 15:01:23.002  INFO 13136 --- [Test worker] com.stan.spring.config.JpaConfiguration  : Jpa configuration is enabled
+2022-07-01 15:01:23.025  INFO 13136 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-07-01 15:01:23.028  INFO 13136 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-07-01 15:01:23.035  WARN 13136 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-07-01 15:01:23.081  WARN 13136 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-07-01 15:01:23.400  INFO 13136 --- [Test worker] c.s.s.i.service.CompanyServiceIT         : Started CompanyServiceIT in 6.316 seconds (JVM running for 8.856)
+2022-07-01 15:02:47.566  INFO 7472 --- [Test worker] c.s.s.i.service.CompanyServiceIT         : Starting CompanyServiceIT using Java 17.0.3.1 on DESKTOP-QI8F0IR with PID 7472 (started by posht in D:\JavaProjects\spring-starter)
+2022-07-01 15:02:47.568  INFO 7472 --- [Test worker] c.s.s.i.service.CompanyServiceIT         : The following profiles are active: test
+2022-07-01 15:02:48.382  INFO 7472 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-01 15:02:48.424  INFO 7472 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 JPA repository interfaces.
+2022-07-01 15:02:49.744  INFO 7472 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-01 15:02:50.094  INFO 7472 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-01 15:02:50.243  INFO 7472 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-01 15:02:50.396  INFO 7472 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-07-01 15:02:50.905  INFO 7472 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-01 15:02:51.278  INFO 7472 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-07-01 15:02:52.751  INFO 7472 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-01 15:02:52.765  INFO 7472 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-01 15:02:52.791  INFO 7472 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-07-01 15:02:53.122  INFO 7472 --- [Test worker] com.stan.spring.config.JpaConfiguration  : Jpa configuration is enabled
+2022-07-01 15:02:53.155  INFO 7472 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-07-01 15:02:53.158  INFO 7472 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-07-01 15:02:53.169  WARN 7472 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-07-01 15:02:53.215  WARN 7472 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-07-01 15:02:53.550  INFO 7472 --- [Test worker] c.s.s.i.service.CompanyServiceIT         : Started CompanyServiceIT in 6.578 seconds (JVM running for 8.984)
+2022-07-01 16:48:51.129  INFO 1192 --- [Test worker] c.s.s.i.d.r.CompanyRepositoryTest        : Starting CompanyRepositoryTest using Java 17.0.3.1 on DESKTOP-QI8F0IR with PID 1192 (started by posht in D:\JavaProjects\spring-starter)
+2022-07-01 16:48:51.132  INFO 1192 --- [Test worker] c.s.s.i.d.r.CompanyRepositoryTest        : The following profiles are active: test
+2022-07-01 16:48:52.367  INFO 1192 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-01 16:48:52.415  INFO 1192 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 0 JPA repository interfaces.
+2022-07-01 16:48:53.197  INFO 1192 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-01 16:48:53.431  INFO 1192 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-01 16:48:53.587  INFO 1192 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-01 16:48:53.777  INFO 1192 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-07-01 16:48:54.144  INFO 1192 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-01 16:48:54.489  INFO 1192 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-07-01 16:48:55.851  INFO 1192 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-01 16:48:55.867  INFO 1192 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-01 16:48:55.895  INFO 1192 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-07-01 16:48:56.201  INFO 1192 --- [Test worker] com.stan.spring.config.JpaConfiguration  : Jpa configuration is enabled
+2022-07-01 16:48:56.232  INFO 1192 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-07-01 16:48:56.234  INFO 1192 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-07-01 16:48:56.241  WARN 1192 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-07-01 16:48:56.280  WARN 1192 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-07-01 16:48:56.565  INFO 1192 --- [Test worker] c.s.s.i.d.r.CompanyRepositoryTest        : Started CompanyRepositoryTest in 6.215 seconds (JVM running for 9.999)
+2022-07-01 16:48:57.003  INFO 1192 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-07-01 16:48:57.004  INFO 1192 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-07-01 16:48:57.004  INFO 1192 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-07-01 16:48:57.005  INFO 1192 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-01 16:48:57.007  INFO 1192 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-01 16:48:57.025  INFO 1192 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-01 16:52:02.351  INFO 14652 --- [Test worker] c.s.s.i.d.r.CompanyRepositoryTest        : Starting CompanyRepositoryTest using Java 17.0.3.1 on DESKTOP-QI8F0IR with PID 14652 (started by posht in D:\JavaProjects\spring-starter)
+2022-07-01 16:52:02.353  INFO 14652 --- [Test worker] c.s.s.i.d.r.CompanyRepositoryTest        : The following profiles are active: test
+2022-07-01 16:52:03.159  INFO 14652 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-01 16:52:03.196  INFO 14652 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 0 JPA repository interfaces.
+2022-07-01 16:52:04.132  INFO 14652 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-01 16:52:04.487  INFO 14652 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-01 16:52:04.724  INFO 14652 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-01 16:52:04.906  INFO 14652 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-07-01 16:52:05.450  INFO 14652 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-01 16:52:05.844  INFO 14652 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-07-01 16:52:08.106  INFO 14652 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-01 16:52:08.128  INFO 14652 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-01 16:52:08.239  INFO 14652 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-07-01 16:52:08.544  INFO 14652 --- [Test worker] com.stan.spring.config.JpaConfiguration  : Jpa configuration is enabled
+2022-07-01 16:52:08.572  INFO 14652 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-07-01 16:52:08.574  INFO 14652 --- [Test worker] c.s.spring.database.pool.ConnectionPool  : Init connection pool
+2022-07-01 16:52:08.580  WARN 14652 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-07-01 16:52:08.619  WARN 14652 --- [Test worker] c.s.s.d.repository.CompanyRepository     : init company repository
+2022-07-01 16:52:09.047  INFO 14652 --- [Test worker] c.s.s.i.d.r.CompanyRepositoryTest        : Started CompanyRepositoryTest in 7.33 seconds (JVM running for 9.912)
+2022-07-01 16:52:09.657  INFO 14652 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-07-01 16:52:09.658  INFO 14652 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-07-01 16:52:09.658  INFO 14652 --- [SpringApplicationShutdownHook] c.s.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-07-01 16:52:09.658  INFO 14652 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-01 16:52:09.664  INFO 14652 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-01 16:52:09.673  INFO 14652 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
